@@ -211,18 +211,20 @@ else:
 
 logo ="""  \033[1;32;40m
    
- _   _   ___     ___ _____ ___________ 
-| \ | | / _ \   |_  |  ___|  ___| ___ \
-|  \| |/ /_\ \    | | |__ | |__ | |_/ /
-| . ` ||  _  |    | |  __||  __|| ___ \
-| |\  || | | |/\__/ / |___| |___| |_/ /
-\_| \_/\_| |_/\____/\____/\____/\____/ 
-                                       
+
+ /$$   /$$  /$$$$$$     /$$$$$ /$$$$$$$$ /$$$$$$$$ /$$$$$$$ 
+| $$$ | $$ /$$__  $$   |__  $$| $$_____/| $$_____/| $$__  $$
+| $$$$| $$| $$  \ $$      | $$| $$      | $$      | $$  \ $$
+| $$ $$ $$| $$$$$$$$      | $$| $$$$$   | $$$$$   | $$$$$$$ 
+| $$  $$$$| $$__  $$ /$$  | $$| $$__/   | $$__/   | $$__  $$
+| $$\  $$$| $$  | $$| $$  | $$| $$      | $$      | $$  \ $$
+| $$ \  $$| $$  | $$|  $$$$$$/| $$$$$$$$| $$$$$$$$| $$$$$$$/
+|__/  \__/|__/  |__/ \______/ |________/|________/|_______/                                     
 \033[1;37m══════════════════════════════════════════════════
-\033[1;32m𝐀𝐔𝐓𝐇𝐎𝐑     \033[1;31m➟   \033[1;32m НAJΙ NAJEEВ
-\033[1;32m𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊   \033[1;31m➟   \033[1;32m НAJΙ NAJEEВ
+\033[1;32m𝐀𝐔𝐓𝐇𝐎𝐑     \033[1;31m➟   \033[1;32m НAJΙ NAJEEВ😾
+\033[1;32m𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊   \033[1;31m➟   \033[1;32m НAJΙ NAJEEВ😾
 \033[1;32m𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌   \033[1;31m ➟   \033[1;32m NO🤧
-\033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   \033[1;31m ➟   \033[1;32m0.1
+\033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   \033[1;31m ➟   \033[1;32m0.2
 \033[1;32m𝐓𝐎𝐎𝐋𝐒 𝐒𝐓𝐀𝐓𝐔𝐒 \033[1;31m ➟   \033[1;32m𝐅𝐑𝐄𝐄
 \033[1;37m══════════════════════════════════════════════════"""
 clear()
@@ -653,13 +655,12 @@ def freeq(uid,pwx,tl):
             "flow":"login_no_pain",
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'm.facebook.com',
+            header_freefb = { 'authority': 'm.facebook.com',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
-           # 'cookie': 'datr=aVngZXvXxQWb3RdI0rD-DNvZ; sb=aVngZZd4vufwcFbLzteeQA01; m_pixel_ratio=1.891728162765503; ps_l=0; ps_n=0; zsh=ASRen33Xi4RNm29f8NvRy8q3AKj61mmpvqkXn0ZdEA9NC9HJwzFTUMEwqFUmNeDRVmvcjxnBs7raJXA0s5KnbTda1_lIZOGiRnyFA5a9zAaidhaYGwc5CvX6WlFDoggxfdDwl-tkZbCCNGm4h7iKcby84VBkpTtgALLga2NTLGR5YOs1D1I2o45SmurVRkvnDlXI1_a2N59-ytxMeidXidcQTS9Xekhb09hNKyaNUAlFjUQLqgw_oDl4a_J-KgD7srPcaUb0e5B7vbfA-yY0DR0tEhUM1srKuWpxyW8V3XzM-tqRsrV06jYbPGLzsRdvQ8SR; locale=en_US; wl_cbv=v2%3Bclient_version%3A2419%3Btimestamp%3A1709202111; vpd=v1%3B985x486x1.891728162765503; wd=572x1159; fr=0M6BOZ7kqPYALT9Oz.AWW1QEFd4t0AqVp-sctKBUfXYTY.Bl4Flp..AAA.0.0.Bl4FsT.AWXMTrW3CgU',
+            # 'cookie': 'datr=dIbgZWX4lX59i2T3CNFYFMRW; sb=dIbgZaZy4VcjZjfyZf4rdGYm; m_pixel_ratio=1.891728162765503; ps_l=0; ps_n=0; zsh=ASSIumigAo1tZvhs_cTtC6Ku0Daut26MtFtY0QbM2jYSmiH_W0uk2vDvcSa9E_HmMLBO54GfvCeO6tOWL4hae0C0VxNLORkJWGgS_jUnT9XMJmfwrsOHqUQuojPugJSqo6fcK4sbhzwaykXy8-3wCWjPs8QMJjxCIKVbxooGTSAFIEnCzZyN3PXwh1Y8Jme1lPTRwuvtkb5hsrDYrZ27-ULV1ofY9mGbmtFjUEXtCRpyjIzsj1-ZF4f64x0lC2ausSCgYLBkT0kCg8eI-0YXaWgQmSUiASoPqCnNwR9uBMrQppfK2wl2VNfxcyfq_XcRhgnp; locale=en_US; wl_cbv=v2%3Bclient_version%3A2419%3Btimestamp%3A1709213333; vpd=v1%3B1041x486x1.891728162765503; wd=572x1159; fr=0Fu0zEFvpEzkcRGBF.AWXOYgaUt1E7zxiKo0xy46c-EFY.Bl4IZ0..AAA.0.0.Bl4Ibr.AWXwnFDdSaw',
             'dpr': '2.2250001430511475',
-            'referer': 'https://m.facebook.com/bookmarks/',
             'sec-ch-prefers-color-scheme': 'dark',
             'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
             'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
@@ -669,7 +670,7 @@ def freeq(uid,pwx,tl):
             'sec-ch-ua-platform-version': '"12.0.0"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'same-origin',
+            'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
