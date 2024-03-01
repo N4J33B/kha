@@ -223,8 +223,8 @@ logo ="""  \033[1;32;40m
 \033[1;37m══════════════════════════════════════════════════
 \033[1;32m𝐀𝐔𝐓𝐇𝐎𝐑     \033[1;31m➟   \033[1;32m НAJΙ NAJEEВ😾
 \033[1;32m𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊   \033[1;31m➟   \033[1;32m НAJΙ NAJEEВ😾
-\033[1;32m𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌   \033[1;31m ➟   \033[1;32m NO🤧
-\033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   \033[1;31m ➟      \033[1;32m0.4
+\033[1;32m𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌   \033[1;31m ➟   \033[1;32m NO😾
+\033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   \033[1;31m ➟      \033[1;32m0.5
 \033[1;32m𝐓𝐎𝐎𝐋𝐒 𝐒𝐓𝐀𝐓𝐔𝐒 \033[1;31m ➟   \033[1;32m𝐅𝐑𝐄𝐄
 \033[1;37m══════════════════════════════════════════════════"""
 clear()
@@ -655,13 +655,14 @@ def freeq(uid,pwx,tl):
             "flow":"login_no_pain",
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {
+            header_freefb ={
             'authority': 'm.facebook.com',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
-            # 'cookie': 'datr=mpThZRAx6U030rrSKvW6azsl; sb=mpThZdxjJWQvqxiF-ykuLGXn; m_pixel_ratio=1.891728162765503; ps_l=0; ps_n=0; wd=572x1159; fr=0zHLNH4TrummRqqRY..Bl4ZSa..AAA.0.0.Bl4ZTS.AWXJ5l27Gtw',
+            # 'cookie': 'datr=kb3hZVypkgy01Uz0b2VBTrv5; sb=kb3hZSuD0ApZyCK95zsz49Y4; ps_l=0; ps_n=0; m_pixel_ratio=1.891728162765503; locale=ur_PK; wl_cbv=v2%3Bclient_version%3A2423%3Btimestamp%3A1709292981; vpd=v1%3B1041x486x1.891728162765503; wd=572x1159; fr=0B0a8Uf6OsxjkyMfe.AWV-o1oCFezQ_WbJUIO7r85tAgg.Bl4b2R..AAA.0.0.Bl4b3k.AWVF8_xD5tc',
             'dpr': '2.2250001430511475',
+            'referer': 'https://m.facebook.com/bookmarks/',
             'sec-ch-prefers-color-scheme': 'dark',
             'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
             'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
@@ -671,7 +672,7 @@ def freeq(uid,pwx,tl):
             'sec-ch-ua-platform-version': '"12.0.0"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
+            'sec-fetch-site': 'same-origin',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
